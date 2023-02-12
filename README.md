@@ -12,3 +12,8 @@ Check the value to be inserted (say X) with the value of the current node (say v
 If X is less than val move to the left subtree.
 Otherwise, move to the right subtree.
 Once the leaf node is reached, insert X to its right or left based on the relation between X and the leaf node’s value.
+
+SEARCHING:
+Start from the root. 
+Compare the searching element with root, if less than root, then recursively call left subtree, else recursively call right subtree. 
+If the element to search is found anywhere, return true, else return false. 
